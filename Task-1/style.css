@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+    background-color: #0f172a;
+    color: white;
+    padding: 25px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a {
+    color: white;
+    margin-left: 25px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* Hero Section */
+.hero {
+    min-height: 100vh;   /* 🔥 FULL SCREEN */
+    background: linear-gradient(120deg, #2563eb, #1e40af);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+}
+
+.hero h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    max-width: 700px;
+    margin-bottom: 30px;
+}
+
+.hero button {
+    padding: 14px 35px;
+    font-size: 16px;
+    background-color: white;
+    color: #1e40af;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* About Section */
+.about {
+    min-height: 80vh;
+    padding: 80px 20px;
+    text-align: center;
+    background-color: #f8fafc;
+}
+
+.about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Services Section */
+.services {
+    min-height: 90vh;
+    background-color: #e0e7ff;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 36px;
+}
+
+.service-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.box {
+    background-color: white;
+    padding: 30px;
+    width: 220px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+    font-size: 18px;
+}
+
+/* Extra Section for Scroll */
+.extra {
+    min-height: 80vh;
+    background-color: #020617;
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.extra h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.extra p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Footer */
+footer {
+    background-color: #020617;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    font-size: 14px;
+}
