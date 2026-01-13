@@ -4,7 +4,7 @@ Oasis Infobyte Internship Tasks
 
 ## Landing Page Project
 
-This project is created as part of the **Oasis Infobyte Web Development Internship (Level 1)** in (Task 1)**.
+This project is created as part of the **Oasis Infobyte Web Development Internship (Level 1 Task 1)**.
 The aim of this task is to demonstrate basic front-end development skills using **HTML and CSS**.
 
 ---
